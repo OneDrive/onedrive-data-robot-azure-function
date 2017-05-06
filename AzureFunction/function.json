@@ -1,0 +1,35 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "name": "req",
+      "type": "httpTrigger",
+      "direction": "in",
+      "methods": [
+        "post"
+      ]
+    },
+    {
+      "name": "res",
+      "type": "http",
+      "direction": "out"
+    },
+    {
+      "type": "table",
+      "name": "syncStateTable",
+      "tableName": "syncState",
+      "take": 50,
+      "connection": "onedrivemagicstorage_STORAGE",
+      "direction": "in"
+    },
+    {
+      "type": "table",
+      "name": "tokenCacheTable",
+      "tableName": "tokenCache",
+      "take": 50,
+      "connection": "onedrivemagicstorage_STORAGE",
+      "direction": "in"
+    }
+  ],
+  "disabled": false
+}
