@@ -3,7 +3,7 @@
     "net46": {
       "dependencies": {
         "WindowsAzure.Storage": "7.0.0",
-        "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.10.305231913",
+        "Microsoft.IdentityModel.Clients.ActiveDirectory": "3.13.9",
         "Microsoft.Graph": "1.2.1"
       }
     }
