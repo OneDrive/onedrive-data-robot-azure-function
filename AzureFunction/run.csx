@@ -295,7 +295,7 @@ private static HttpResponseMessage PlainTextResponse(string text)
 // Retrieve a new access token from AAD
 private static async Task<string> RetrieveAccessTokenAsync(string signInUserId, CloudTable tokenCacheTable, TraceWriter log) 
 {
-    log.Verbose($"Retriving new accessToken for signInUser: {signInUserId}");
+    log.Verbose($"Retrieving new accessToken for signInUser: {signInUserId}");
 
     var tokenCache = new AzureTableTokenCache(signInUserId, tokenCacheTable);
     var authContext = new AuthenticationContext(idaAuthorityUrl, tokenCache);
