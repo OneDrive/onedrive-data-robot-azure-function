@@ -1,5 +1,7 @@
 # OneDrive Data Robot Azure Function Sample Code
 
+**If you are looking for the sample from Ignite 2017** that used the Bing Speech API and the List API together, the URL posted was incorrect. That sample code is available here: https://github.com/OneDrive/document-library-audio-transcription-robot-sample
+
 This project provides an example implementation for connecting Azure Functions to OneDrive to enable your solution to react to changes in files in OneDrive nearly instantly.
 
 The project consists of two parts:
